@@ -12,10 +12,11 @@ public class BaseClass {
          WebDriverManager.chromedriver().setup();
           driver=new ChromeDriver();
           
-        
-         
-	}  
-	
+          
+  }  
+	public static void exit() {
+driver.quit();
+	}
 	
 	
 
